@@ -1,14 +1,11 @@
-//import CCCounter from "./components/CCCounter";
-import HFCounter from "./components/HFCounter";
+import HFForm from "./components/HFForm";
+
 
 function App() {
 
-  console.log("Error");
-
   return (
     <div className="App">
-    {/* <CCCounter></CCCounter> */}
-    <HFCounter></HFCounter>
+      <HFForm></HFForm>
     </div>
   );
 }
