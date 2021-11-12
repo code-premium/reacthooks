@@ -1,11 +1,10 @@
-import HFForm from "./components/HFForm";
-
+import HFArrays from "./components/HFArrays";
 
 function App() {
 
   return (
     <div className="App">
-      <HFForm></HFForm>
+      <HFArrays></HFArrays>
     </div>
   );
 }
