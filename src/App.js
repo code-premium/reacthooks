@@ -1,10 +1,11 @@
-import HFArrays from "./components/HFArrays";
+import HFCounter from "./components/HFCounter";
+
 
 function App() {
 
   return (
     <div className="App">
-      <HFArrays></HFArrays>
+      <HFCounter></HFCounter>
     </div>
   );
 }
