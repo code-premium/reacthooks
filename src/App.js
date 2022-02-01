@@ -1,11 +1,11 @@
-import HFCounter from "./components/HFCounter";
 
+import ComponentePai from "./components/callback/ComponentePai";
 
 function App() {
 
   return (
     <div className="App">
-      <HFCounter></HFCounter>
+      <ComponentePai></ComponentePai>
     </div>
   );
 }

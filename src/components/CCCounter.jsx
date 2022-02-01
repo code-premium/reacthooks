@@ -25,6 +25,10 @@ export default class CCCounter extends Component {
         document.title = `Você clicou ${this.state.count} vezes`;
     }
 
+    componentWillUnmount(){
+        
+    }
+
     render() {
         return (
             <div>
