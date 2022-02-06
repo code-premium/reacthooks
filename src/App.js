@@ -1,11 +1,10 @@
-
-import ComponentePai from "./components/callback/ComponentePai";
+import HFMemo from "./components/HFMemo";
 
 function App() {
 
   return (
     <div className="App">
-      <ComponentePai></ComponentePai>
+      <HFMemo></HFMemo>
     </div>
   );
 }
