@@ -15,7 +15,7 @@ function HFMemo() {
 
     const parOuImpar = useMemo(() => {
         let i = 0;
-        while (i < 3000000000) i++;
+        //while (i < 3000000000) i++;
         return contador1 % 2 === 0
     },[contador1])
 
