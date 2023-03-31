@@ -1,10 +1,10 @@
-import HFMemo from "./components/HFMemo";
+import HFRefDom from "./components/HFRefDom";
 
 function App() {
 
   return (
     <div className="App">
-      <HFMemo></HFMemo>
+      <HFRefDom></HFRefDom>
     </div>
   );
 }
