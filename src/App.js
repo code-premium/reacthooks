@@ -1,10 +1,9 @@
-import HFRefDom from "./components/HFRefDom";
+import HFNested from "./components/HFNested";
 
 function App() {
-
   return (
     <div className="App">
-      <HFRefDom></HFRefDom>
+      <HFNested></HFNested>
     </div>
   );
 }
