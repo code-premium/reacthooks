@@ -1,16 +1,9 @@
-import HFNested from "./components/HFNested";
-import { UserContext } from "./components/contexts/UserContext";
-import { useState } from "react";
-
+import HFReducer from "./components/HFReducer";
 function App() {
-  var [user, setUser] = useState("Paulo Roberto");
-
   return (
-    <UserContext.Provider value={{ user, setUser }}>
-      <div className="App">
-        <HFNested></HFNested>
-      </div>
-    </UserContext.Provider>
+    <div className="App">
+      <HFReducer></HFReducer>
+    </div>
   );
 }
 
