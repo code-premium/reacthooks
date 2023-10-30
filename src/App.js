@@ -1,8 +1,8 @@
-import HFReducer from "./components/HFReducer";
+import HFFetch from "./components/HFFetch";
 function App() {
   return (
     <div className="App">
-      <HFReducer></HFReducer>
+      <HFFetch></HFFetch>
     </div>
   );
 }
